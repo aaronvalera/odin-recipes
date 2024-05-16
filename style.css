@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title,
+.recipe {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#title {
+    text-align: center;
+    color: #ffd900;
+    background-color: black;
+} 
+
+#first-recipe {
+    color: rgba(172, 31, 31, 0.945);
+}
+
+#second-recipe {
+    color:hsl(271, 66%, 57%)
+}
+
+#third-recipe {
+    color: #32ff09;
+}
