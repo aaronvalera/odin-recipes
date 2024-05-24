@@ -3,49 +3,64 @@ body {
     background-color: rgb(247, 176, 176);
     box-sizing: border-box;
 }
-
-#title,
-.recipe {
-    font-size: 35px;
-    font-weight: 600;
+div {
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: rgb(252, 189, 72);
 }
 
-#title {
+.description-container,
+.ingredients-container,
+.steps-container {
+    padding: 8px 0px;
+}
+
+h1,
+h2 {
     text-align: center;
-    color: #000000;
-} 
-
-#first-recipe {
-    color: rgba(172, 31, 31, 0.945);
+    margin: 0 auto;
 }
 
-#second-recipe {
-    color:hsl(271, 66%, 57%)
+h2 {
+    text-decoration: underline;
 }
 
-#third-recipe {
-    color: #ac0086;
+p {
+    padding-left: 8px;
 }
 
-#recipes-titles,
-.Description,
-.ingredients-list,
-.steps {
-    text-align: center;
-    font-size: 35px;
-}
-
-p,
 ul,
 ol {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    padding-left: 30px;
 }
 
 #recipes-images {
-    width: 400px;
-    height: auto;
+    width: 250px;
+    height: 150px;
+    padding: 8px 0;
+    padding-left: 120px;
 }
 
+.button-container {
+    background-color: rgb(247, 176, 176);
+    
+    display: block;
+}
 
+.bottom-left-button {
+    margin-left: 250px;
+}
 
+.bottom-right-button {
+    margin-left: 600px;  
+    
+}
+
+.bottom-left-button,
+.bottom-right-button {
+    background-color: rgb(245, 119, 119);
+    padding: 10px 30px 5px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
