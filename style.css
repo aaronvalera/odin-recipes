@@ -44,7 +44,6 @@ ol {
 
 .button-container {
     background-color: rgb(247, 176, 176);
-    
     display: block;
 }
 
@@ -53,8 +52,7 @@ ol {
 }
 
 .bottom-right-button {
-    margin-left: 600px;  
-    
+    margin-left: 600px;   
 }
 
 .bottom-left-button,
@@ -67,4 +65,45 @@ ol {
 
 .homepage-logo {
     width: 50px;
+}
+
+.title-container {
+    background: white;
+    color: black;
+}
+
+.recipes-container {
+    padding: -100px;
+    background-color: none;
+    margin-top: 10px;
+    border: none;  
+}
+
+.index,
+.recipes-container,
+.garlic-bread-container,
+.lasagna-container,
+.chocolate-cream-pie-container {
+    border: none;
+    background-color: rgb(247, 176, 176);;
+}
+
+.recipes-images {
+    width: 300px;
+    height: auto;
+    margin-left: 65px;
+    margin-bottom: 50px;
+    border: 6px double black;
+}
+
+.recipe {
+    color: brown;
+}
+
+li::marker {
+    margin-left: 1000px;
+}
+
+.bread {
+    height: 170px;
 }
